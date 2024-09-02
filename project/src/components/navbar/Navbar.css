@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    background-color:#002f6c ; 
+    padding: 10px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+
+  }
+  
+  .logo img {
+    height:100px; 
+  }
+  
+  .shortcuts {
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+  }
+  
+  .shortcuts li {
+    margin: 0 15px;
+    padding: 10px 15px; 
+    background-color: white; 
+    border-radius: 10px; 
+    color: #003366; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .shortcuts li:hover {
+    color: gray; 
+  }
+  
+  .shortcuts svg {
+    margin-left: 20px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-icon {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  

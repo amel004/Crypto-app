@@ -1,13 +1,12 @@
 import React from 'react'
-import "./Home.css"
+import "./Footer.css"
 
-const Home = () => {
+const Footer = () => {
   return (
     <div>
-       
       
     </div>
   )
 }
 
-export default Home
+export default Footer
