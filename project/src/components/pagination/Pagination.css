@@ -1,0 +1,9 @@
+.pagination-wrapper{
+    position: absolute;
+    bottom: 0;
+}
+.pagination-controls button{
+    background-color: white;
+    
+
+}
