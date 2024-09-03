@@ -4,6 +4,22 @@
 }
 .pagination-controls button{
     background-color: white;
-    
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    font-family: Arial, sans-serif;
+    border: 0.1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 4.3px;
 
+}
+.pagination-controls button:hover{
+    background-color: rgb(236, 234, 234);
+}
+.pagination-controls button:focus{
+    background-color: rgb(219, 215, 215)
+}
+.pagination-controls{
+    margin-left: 60%;
+    width: 700px;
+    margin-bottom: 50px;
 }
