@@ -37,6 +37,10 @@ const Coins = () => {
           ))}
         </tbody>
       </table>
+      
+
+     
+      
     </div>
   );
 };

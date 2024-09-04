@@ -1,25 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css'; 
-import { FaHeart } from 'react-icons/fa';
-import { FaUser } from 'react-icons/fa';
-
-
+import { FaHeart, FaUser } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-  <div className='navbar'>
-    <img src="/logoo.png" alt="" className='logo' />
-    <ul>
-      <li>Home</li>
-      <li>Coins</li>
-      <li>Exchanges</li>
-      <li>About us</li>
-      <FaHeart style={{color:"red", width:"50px"}} /> 
-    </ul>
-    <FaUser  style={{color:"white", width:"50px"}}/>
-
-  </div>
+    <div className='navbar'>
+      <img src="/logoo.png" alt="Logo" className='logo' />
+      <div className='nav-links'>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/coins">Coins</NavLink>
+        <NavLink to="/exchanges">Exchanges</NavLink>
+        <NavLink to="/about">About Us</NavLink>
+        <FaHeart style={{ color: "red", width: "60px", cursor:"pointer" }} />
+      </div>
+      <FaUser style={{ color: "white", width: "50px", cursor:"pointer" }} />
+    </div>
   );
 }
 
