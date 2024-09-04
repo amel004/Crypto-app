@@ -59,7 +59,7 @@ export default function Pagination() {
                 </div>
             ))}
             <div className="pagination-controls">
-                <button onClick={()=>setCurrentPage(currentPage-1)} disabled={currentPage===1}>{"<--"}</button>
+                <button onClick={()=>setCurrentPage(currentPage-1)} disabled={currentPage===1}>{"<"}</button>
                 {pageNumbers.map((number) => (
                     <button
                         key={number}
@@ -70,7 +70,7 @@ export default function Pagination() {
                     </button>
 
                 ))}
-<button onClick={()=>setCurrentPage(currentPage+1)} disabled={currentPage===pageCount}>{"-->"}</button>
+<button onClick={()=>setCurrentPage(currentPage+1)} disabled={currentPage===pageCount}>{">"}</button>
             </div>
         </div>
     );

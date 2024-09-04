@@ -1,0 +1,34 @@
+.coins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-logo {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.crypto-table {
+    width: 60vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+td {
+    padding: 12px 8px;
+    border-bottom: 1px solid  #333;
+    font-size: 18px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
