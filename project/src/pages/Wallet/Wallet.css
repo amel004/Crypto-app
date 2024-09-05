@@ -1,0 +1,12 @@
+.wallet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13% ;
+}
+span{
+  color: red;
+}
+h3{
+  font-size: 30px;
+}
