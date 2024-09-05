@@ -29,6 +29,4 @@ td {
     font-size: 18px;
 }
 
-tr:last-child td {
-    border-bottom: none;
-}
+
