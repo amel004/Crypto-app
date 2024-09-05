@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./About.css";
 
-const About = () => {
+import AboutUs from "../../components/about/cardsAboutUs/cardsAboutUs";
+
+function About() {
   return (
-    <div>
+    <>
+    
+      <AboutUs/>
       
-    </div>
-  )
+    </>
+  );
 }
 
-export default About
+export default About;

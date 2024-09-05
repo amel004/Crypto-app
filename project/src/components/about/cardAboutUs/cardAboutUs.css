@@ -1,0 +1,18 @@
+.slikaAU {
+  border-radius: 50%;
+  width: 60%;
+  margin-bottom:30px ;
+  height: 40%;
+}
+.cardAU {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  padding: 30px;
+}
+.cardAU:hover{
+    transform: scale(1.02);
+}
