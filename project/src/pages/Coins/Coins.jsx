@@ -1,7 +1,7 @@
-// src/pages/Coins/Coins.jsx
 import React, { useContext } from 'react';
 import { CoinContext } from '../../context/CoinContext';
 import './Coins.css';
+
 
 const Coins = () => {
   const { coins } = useContext(CoinContext);
