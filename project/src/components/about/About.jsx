@@ -1,13 +1,13 @@
 import React from 'react'
-import "/About.css"
+import "./About.css"
+import AboutUs from './cardsAboutUs/cardsAboutUs'
 
 
 
-const About = () => {
+function About() {
   return (
-    <div>
-    
-    </div>
+ 
+    <AboutUs/>
   )
 }
 
