@@ -14,7 +14,7 @@ const Navbar = () => {
         <NavLink to="/about">About Us</NavLink>
         <FaHeart style={{ color: "red", width: "60px", cursor:"pointer" }} />
       </div>
-      <FaUser style={{ color: "white", width: "50px", cursor:"pointer" }} />
+      <NavLink to="/Wallet"><FaUser style={{ color: "white", width: "50px", cursor:"pointer" }} /></NavLink>
     </div>
   );
 }
