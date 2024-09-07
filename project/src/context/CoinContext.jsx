@@ -12,7 +12,7 @@ const CoinProvider = ({ children }) => {
   useEffect(() => {
     const fetchCoins = async () => {
       try {
-        const limit = 10; 
+        const limit = 100; 
         const offset = (currentPage - 1) * limit;
         const response = await axios.get('https://coinranking1.p.rapidapi.com/coins', {
           headers: {
