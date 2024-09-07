@@ -8,7 +8,7 @@ import Wallet from './pages/Wallet/Wallet';
 import Exchanges from './pages/Exchanges/Exchanges'; 
 import Footer from './components/footer/Footer';
 
-
+console.log("test")
 
 const App = () => {
   return (
